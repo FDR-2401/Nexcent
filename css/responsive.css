@@ -1,0 +1,182 @@
+@media(min-width: 320px) and (max-width: 575.99px) {
+    .navbar {
+        padding: 8px 0;
+    }
+    .container{
+        padding: 0 20px;
+    }
+    .navbar .container button{
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar .container button:focus{
+        box-shadow: none;
+    }
+
+    .navbar .container button i{
+        font-size: 20px;
+        color: rgb(22, 172, 22);
+    }
+
+    .navbar-nav {
+        column-gap: 23px;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        padding-top: 15px;
+    }
+
+    .navbar .main-button {
+        gap: 34px;
+        padding: 9px 0;
+        justify-content: center;
+    }
+    /* =========================================== */
+
+    .banner-part {
+        padding: 62px 0;
+        background: #F5F7FA;
+    }
+
+    .banner-part .container .main{
+        row-gap: 38px;
+    }
+
+
+    .banner-part .container .main .left {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner-part .container .main .left h2 {
+        max-width: 348px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 43px;
+        margin-bottom: 0;
+        color: rgb(81, 81, 81);
+        text-align: center;
+    }
+
+    .banner-part .container .main .left p {
+        max-width:  443px;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 15px;
+        color: #717171;
+        text-align: center;
+    }
+    
+    .banner-part .container .main .right{
+        text-align: center;
+        width: 90%;
+    }
+
+    .banner-part .container .main .right img{
+        width: 65%;
+    }
+/* ========================================================= */
+
+    .client-part .container .company-logo {
+        padding: 41px 12px 65px;
+        flex-wrap: wrap;
+        gap: 20px 24px;
+    }
+/* ======================================================== */
+    .single-system {
+        padding: 0 8px;
+    }
+
+
+    .spending-part {
+        padding-bottom: 0;
+    }
+
+
+    .spending-part .text {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .spending-part img{
+        max-width: 361px;
+    }
+
+    .spending-part .text h2 {
+        text-align: center;
+        max-width: 497px;
+        margin: 0 auto;
+        font-size: 26px;
+        line-height: normal;
+    }
+
+    .spending-part .text p {
+        max-width: 497px;
+        text-align: center;
+        margin-top: 20px;
+    }
+/* ======================================================================= */
+    .helping-local .container .left h2{
+        display: flex;
+        max-width: 348px;
+        font-size: 28px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .helping-local .container .left p {
+        text-align: center;
+        max-width: 348px;
+        margin: 20px auto 0px;
+    }
+
+    .helping-local .container .main .right h3 {
+        font-size: 15px;
+    }
+
+    .helping-local .container .main .right p{
+        font-weight: 400;
+    }
+
+    .helping-local .container .main .right img{
+        width: 30px;
+    }
+
+/* ======================================================================= */
+    .tesla .container .main .right .text p:first-child {
+        text-align: center;
+        margin-bottom: 16px;
+        max-width: 461px;
+        margin: 0 auto;
+    }
+
+    .tesla .container .main .right {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tesla .container .main .right .text{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+}
